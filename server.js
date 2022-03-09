@@ -5,7 +5,7 @@ const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
 const app = express()
 require("dotenv").config({ path: "./config/.env" });
-const PORT = 3000 || process.env.PORT
+const PORT = process.env.PORT || 3000
 
 mongoose.connect(process.env.DB_STRING, {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
