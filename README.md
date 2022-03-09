@@ -1,3 +1,6 @@
+had to move this from an older repo. https://github.com/robregan/blog-app too many weird errors and I was too deep into changes so I started over.
+
+
 # Markdown Blog
 
   This Blog will allow you to add an article, edit and delete it. It also comes with a markdown section so you can use *fancy syntax!*
